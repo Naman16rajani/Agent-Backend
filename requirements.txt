@@ -51,7 +51,7 @@ composio-langchain==0.5.42
 coolname==2.2.0
 crewai==0.80.0
 crewai-tools==0.17.0
-cryptography==43.0.3
+cryptography==44.0.1
 dataclasses-json==0.6.7
 datasets==2.14.4
 decorator==5.1.1
