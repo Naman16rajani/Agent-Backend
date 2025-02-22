@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      # platforms:
-      #   - linux/amd64
+      platforms:
+        - linux/amd64
     container_name: django_container
     restart: always
     volumes:

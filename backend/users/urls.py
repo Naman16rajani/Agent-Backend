@@ -1,14 +1,17 @@
 from django.urls import path
 from django.contrib.auth import views as auth_views
+from django.views.decorators.csrf import csrf_exempt
+
 from . import views
-from django.contrib.auth.views import LogoutView
 from django.http import JsonResponse
 
+from .api_views import RegisterView, LoginView, LogoutView
 
 urlpatterns = [
     path('', views.login_view, name='login'),
-    path('register/', views.register, name='register'),
-    path('logout/', LogoutView.as_view(next_page='/'), name='logout'),
-    path('health', lambda request: JsonResponse({"status": "Server is running"}, status=200), name='health_check')
+    path('register/', RegisterView.as_view(), name='register'),
+    path('login/', LoginView.as_view(), name='login'),
+    path('logout/', LogoutView.as_view(), name='logout'),
+    path('health/', csrf_exempt(lambda request: JsonResponse({"status": "Server is running"}, status=200)), name='health_check'),
 
 ]

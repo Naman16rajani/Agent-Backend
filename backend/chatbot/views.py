@@ -11,6 +11,3 @@ def chat_view(request):
     return chat_view_controller(request)
 
 
-def load_data_api(request):
-    load_data()
-    return redirect('/')
