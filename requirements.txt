@@ -374,7 +374,7 @@ tomli-w==1.1.0
 torch==2.6.0
 tqdm==4.67.1
 traitlets==5.14.3
-transformers==4.48.2
+transformers==4.52.1
 tree-sitter==0.23.2
 tree-sitter-python==0.23.6
 trio==0.28.0
