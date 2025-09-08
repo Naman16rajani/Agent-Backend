@@ -125,7 +125,7 @@ grpcio-health-checking==1.69.0
 grpcio-status==1.69.0
 grpcio-tools==1.69.0
 gunicorn==23.0.0
-h11==0.14.0
+h11==0.16.0
 h2==4.1.0
 hpack==4.0.0
 html5lib==1.1
