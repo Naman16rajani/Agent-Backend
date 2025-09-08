@@ -43,7 +43,7 @@ clickhouse-connect==0.7.19
 cohere==5.13.6
 coloredlogs==15.0.1
 colorlog==6.9.0
-composio-core==0.5.42
+composio-core==0.5.43
 composio-langchain==0.5.42
 coolname==2.2.0
 crewai==0.80.0
