@@ -295,7 +295,7 @@ pymilvus==2.4.9
 pymongo==4.10.1
 pynacl==1.5.0
 pyparsing==3.2.1
-pypdf==5.1.0
+pypdf==6.1.3
 pyperclip==1.9.0
 pypika==0.48.9
 pyproject-hooks==1.2.0
