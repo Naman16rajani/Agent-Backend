@@ -86,7 +86,7 @@ fake-useragent==1.5.1
 fastapi==0.115.6
 fastapi-pagination==0.12.34
 fastavro==1.10.0
-filelock==3.16.1
+filelock==3.20.1
 filetype==1.2.0
 firecrawl-py==1.6.8
 flaml==2.3.3
